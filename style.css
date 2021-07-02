@@ -1,0 +1,58 @@
+/* .dark-mode {
+    filter: invert(1) hue-rotate(180deg)
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 15px;
+}
+
+.scene {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  display: flex;
+  /* justify-content: flex-start; */
+  /* justify-content: space-around;
+  align-items: right;
+  flex-direction: column; */
+}
+
+.scene li {
+  font-size: 25px;
+  font-family: "Gill Sans", sans-serif;
+  filter: invert(50%)
+}
+
+#darkMode { 
+  cursor: pointer;
+}
+.directTo:hover {
+    text-decoration: none;
+    color: white; 
+}
+li {
+    list-style-type: none;
+    display: inline-flex;
+    text-align: right;
+    padding-left: 40px;
+}
+p {
+    color: aqua;
+}
+.DarkMode {
+    color: #f1f1f1;
+}
+#ModeText {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 25px;
+}
+body {
+    background-color:aliceblue;
+}
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
